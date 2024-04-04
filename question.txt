@@ -1,0 +1,13 @@
+In Next.js create a form. The form should consist of two input fields: one for username and one for password. Each input should update its value attribute on input change.
+There should also be a submit button. It should call the onsubmit handler when clicked. The onSubmit handler is passed through the props to the component and accept two parametes: username and password
+When the submit button is clicked, onsubmit handler should be called. Use a button click event handler for this purpose.
+
+Requirements:
+1. Create an input element for the username field. It should have its id set to username-input and type attribute to text
+2. The username input should update its value attribute on being changed with the entered username
+3. Create and input element for the password field. It should have its is set to password-input
+4. The password input should update its value attribute on being hanged with the entered password.
+5. Create a submit button with its id set to login-button
+6. The submit button should be disabled until both username and password are filled
+7. The onsubmit handler should be called when the submit button is clicked
+8. The onsubmit handler should be called with username and password passed as parameters
